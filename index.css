@@ -1,0 +1,60 @@
+:root {
+  --FormSize-padding-xl: var(--g-controlsSpaceV-xl) var(--g-controlsSpaceH);
+  --FormSize-padding-lg: var(--g-controlsSpaceV-lg) var(--g-controlsSpaceH);
+  --FormSize-padding-sm: var(--g-controlsSpaceV-sm) var(--g-controlsSpaceH);
+
+  --FormSize-fontSize-xl: var(--g-fontSize-xl);
+  --FormSize-fontSize-lg: var(--g-fontSize-lg);
+  --FormSize-fontSize-sm: var(--g-fontSize-sm);
+
+  --FormSize-borderRadius-xl: var(--g-borderRadius-xl);
+  --FormSize-borderRadius-lg: var(--g-borderRadius-lg);
+  --FormSize-borderRadius-sm: var(--g-borderRadius-sm);
+
+  --FormSize-height-xl: var(--g-controlsHeight-xl);
+  --FormSize-height-lg: var(--g-controlsHeight-lg);
+  --FormSize-height-sm: var(--g-controlsHeight-sm);
+
+  --FormSize-full-space: var(--g-space-mi);
+}
+
+
+/*　sircus-components-form-size
+======================================== */
+
+.Input--xl,
+.Select--xl {
+  font-size: var(--FormSize-fontSize-xl) !important;
+  padding: var(--FormSize-padding-xl) !important;
+  border-radius: var(--FormSize-borderRadius-xl) !important;
+  height: var(--FormSize-height-xl) !important;
+}
+
+.Input--lg,
+.Select--lg {
+  font-size: var(--FormSize-fontSize-lg) !important;
+  padding: var(--FormSize-padding-lg) !important;
+  border-radius: var(--FormSize-borderRadius-lg) !important;
+  height: var(--FormSize-height-lg) !important;
+}
+
+.Input--sm,
+.Select--sm {
+  font-size: var(--FormSize-fontSize-sm) !important;
+  padding: var(--FormSize-padding-sm) !important;
+  border-radius: var(--FormSize-borderRadius-sm) !important;
+  height: var(--FormSize-height-sm) !important;
+}
+
+
+.Input--full,
+.Select--full,
+.Textarea--full {
+  display: block;
+  width: 100%;
+}
+.Input--full + .Input--full,
+.Select--full + .Select--full,
+.Textarea--full + .Textarea--full {
+  margin-top: var(--FormSize-full-space);
+}

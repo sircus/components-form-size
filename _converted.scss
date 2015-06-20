@@ -1,0 +1,58 @@
+
+// Converted Variables
+
+$FormSize-padding-xl: $g-controlsSpaceV-xl $g-controlsSpaceH !default;
+$FormSize-padding-lg: $g-controlsSpaceV-lg $g-controlsSpaceH !default;
+$FormSize-padding-sm: $g-controlsSpaceV-sm $g-controlsSpaceH !default;
+$FormSize-fontSize-xl: $g-fontSize-xl !default;
+$FormSize-fontSize-lg: $g-fontSize-lg !default;
+$FormSize-fontSize-sm: $g-fontSize-sm !default;
+$FormSize-borderRadius-xl: $g-borderRadius-xl !default;
+$FormSize-borderRadius-lg: $g-borderRadius-lg !default;
+$FormSize-borderRadius-sm: $g-borderRadius-sm !default;
+$FormSize-height-xl: $g-controlsHeight-xl !default;
+$FormSize-height-lg: $g-controlsHeight-lg !default;
+$FormSize-height-sm: $g-controlsHeight-sm !default;
+
+// Custom Media Query Variables
+
+
+/*　sircus-components-form-size
+======================================== */
+
+.Input--xl,
+.Select--xl {
+  font-size: $FormSize-fontSize-xl !important;
+  padding: $FormSize-padding-xl !important;
+  border-radius: $FormSize-borderRadius-xl !important;
+  height: $FormSize-height-xl !important;
+}
+
+.Input--lg,
+.Select--lg {
+  font-size: $FormSize-fontSize-lg !important;
+  padding: $FormSize-padding-lg !important;
+  border-radius: $FormSize-borderRadius-lg !important;
+  height: $FormSize-height-lg !important;
+}
+
+.Input--sm,
+.Select--sm {
+  font-size: $FormSize-fontSize-sm !important;
+  padding: $FormSize-padding-sm !important;
+  border-radius: $FormSize-borderRadius-sm !important;
+  height: $FormSize-height-sm !important;
+}
+
+
+.Input--full,
+.Select--full,
+.Textarea--full {
+  display: block;
+  width: 100%;
+}
+.Input--full + .Input--full,
+.Select--full + .Select--full,
+.Textarea--full + .Textarea--full {
+  margin-top: $g-space-mi;
+}
