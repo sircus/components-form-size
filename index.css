@@ -1,7 +1,7 @@
 :root {
-  --FormSize-padding-xl: var(--g-controlsSpaceV-xl) var(--g-controlsSpaceH);
-  --FormSize-padding-lg: var(--g-controlsSpaceV-lg) var(--g-controlsSpaceH);
-  --FormSize-padding-sm: var(--g-controlsSpaceV-sm) var(--g-controlsSpaceH);
+  --FormSize-padding-xl: var(--g-controls-spaceV-xl) var(--g-controls-spaceH);
+  --FormSize-padding-lg: var(--g-controls-spaceV-lg) var(--g-controls-spaceH);
+  --FormSize-padding-sm: var(--g-controls-spaceV-sm) var(--g-controls-spaceH);
 
   --FormSize-fontSize-xl: var(--g-fontSize-xl);
   --FormSize-fontSize-lg: var(--g-fontSize-lg);
@@ -11,9 +11,9 @@
   --FormSize-borderRadius-lg: var(--g-borderRadius-lg);
   --FormSize-borderRadius-sm: var(--g-borderRadius-sm);
 
-  --FormSize-height-xl: var(--g-controlsHeight-xl);
-  --FormSize-height-lg: var(--g-controlsHeight-lg);
-  --FormSize-height-sm: var(--g-controlsHeight-sm);
+  --FormSize-height-xl: var(--g-controls-height-xl);
+  --FormSize-height-lg: var(--g-controls-height-lg);
+  --FormSize-height-sm: var(--g-controls-height-sm);
 
   --FormSize-full-space: var(--g-space-mi);
 }
