@@ -1,7 +1,7 @@
 {
   "name": "sircus-components-form-size",
-  "description": "css size modifire module for Sircus From component.",
-  "version": "0.0.1",
+  "description": "Modifier module for manage the size of Sircus Form components",
+  "version": "0.1.0",
   "homepage": "http://sircus.github.io",
   "keywords": [
     "scalable",
