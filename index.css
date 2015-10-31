@@ -18,21 +18,21 @@
 
 .Input--xl,
 .Select--xl {
-  font-size: var(--FormSize-fontSize-xl) !important;
-  padding: var(--FormSize-padding-xl) !important;
-  height: var(--FormSize-height-xl) !important;
+  font-size: var(--FormSize-fontSize-xl);
+  padding: var(--FormSize-padding-xl);
+  height: var(--FormSize-height-xl);
 }
 
 .Input--lg,
 .Select--lg {
-  font-size: var(--FormSize-fontSize-lg) !important;
-  padding: var(--FormSize-padding-lg) !important;
-  height: var(--FormSize-height-lg) !important;
+  font-size: var(--FormSize-fontSize-lg);
+  padding: var(--FormSize-padding-lg);
+  height: var(--FormSize-height-lg);
 }
 
 .Input--sm,
 .Select--sm {
-  font-size: var(--FormSize-fontSize-sm) !important;
-  padding: var(--FormSize-padding-sm) !important;
-  height: var(--FormSize-height-sm) !important;
+  font-size: var(--FormSize-fontSize-sm);
+  padding: var(--FormSize-padding-sm);
+  height: var(--FormSize-height-sm);
 }

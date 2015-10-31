@@ -13,21 +13,21 @@ $FormSize-height-sm: $g-controls-height-sm !default;
 
 .Input--xl,
 .Select--xl {
-  font-size: $FormSize-fontSize-xl !important;
-  padding: $FormSize-padding-xl !important;
-  height: $FormSize-height-xl !important;
+  font-size: $FormSize-fontSize-xl;
+  padding: $FormSize-padding-xl;
+  height: $FormSize-height-xl;
 }
 
 .Input--lg,
 .Select--lg {
-  font-size: $FormSize-fontSize-lg !important;
-  padding: $FormSize-padding-lg !important;
-  height: $FormSize-height-lg !important;
+  font-size: $FormSize-fontSize-lg;
+  padding: $FormSize-padding-lg;
+  height: $FormSize-height-lg;
 }
 
 .Input--sm,
 .Select--sm {
-  font-size: $FormSize-fontSize-sm !important;
-  padding: $FormSize-padding-sm !important;
-  height: $FormSize-height-sm !important;
+  font-size: $FormSize-fontSize-sm;
+  padding: $FormSize-padding-sm;
+  height: $FormSize-height-sm;
 }
