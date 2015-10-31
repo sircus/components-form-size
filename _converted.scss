@@ -1,15 +1,9 @@
-
-// Converted Variables
-
 $FormSize-padding-xl: $g-controls-spaceV-xl $g-controls-spaceH !default;
 $FormSize-padding-lg: $g-controls-spaceV-lg $g-controls-spaceH !default;
 $FormSize-padding-sm: $g-controls-spaceV-sm $g-controls-spaceH !default;
 $FormSize-fontSize-xl: $g-fontSize-xl !default;
 $FormSize-fontSize-lg: $g-fontSize-lg !default;
 $FormSize-fontSize-sm: $g-fontSize-sm !default;
-$FormSize-borderRadius-xl: $g-borderRadius-xl !default;
-$FormSize-borderRadius-lg: $g-borderRadius-lg !default;
-$FormSize-borderRadius-sm: $g-borderRadius-sm !default;
 $FormSize-height-xl: $g-controls-height-xl !default;
 $FormSize-height-lg: $g-controls-height-lg !default;
 $FormSize-height-sm: $g-controls-height-sm !default;
@@ -23,7 +17,6 @@ $FormSize-full-space: $g-space-mi !default;
 .Select--xl {
   font-size: $FormSize-fontSize-xl !important;
   padding: $FormSize-padding-xl !important;
-  border-radius: $FormSize-borderRadius-xl !important;
   height: $FormSize-height-xl !important;
 }
 
@@ -31,7 +24,6 @@ $FormSize-full-space: $g-space-mi !default;
 .Select--lg {
   font-size: $FormSize-fontSize-lg !important;
   padding: $FormSize-padding-lg !important;
-  border-radius: $FormSize-borderRadius-lg !important;
   height: $FormSize-height-lg !important;
 }
 
@@ -39,7 +31,6 @@ $FormSize-full-space: $g-space-mi !default;
 .Select--sm {
   font-size: $FormSize-fontSize-sm !important;
   padding: $FormSize-padding-sm !important;
-  border-radius: $FormSize-borderRadius-sm !important;
   height: $FormSize-height-sm !important;
 }
 

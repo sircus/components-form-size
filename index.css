@@ -7,10 +7,6 @@
   --FormSize-fontSize-lg: var(--g-fontSize-lg);
   --FormSize-fontSize-sm: var(--g-fontSize-sm);
 
-  --FormSize-borderRadius-xl: var(--g-borderRadius-xl);
-  --FormSize-borderRadius-lg: var(--g-borderRadius-lg);
-  --FormSize-borderRadius-sm: var(--g-borderRadius-sm);
-
   --FormSize-height-xl: var(--g-controls-height-xl);
   --FormSize-height-lg: var(--g-controls-height-lg);
   --FormSize-height-sm: var(--g-controls-height-sm);
@@ -26,7 +22,6 @@
 .Select--xl {
   font-size: var(--FormSize-fontSize-xl) !important;
   padding: var(--FormSize-padding-xl) !important;
-  border-radius: var(--FormSize-borderRadius-xl) !important;
   height: var(--FormSize-height-xl) !important;
 }
 
@@ -34,7 +29,6 @@
 .Select--lg {
   font-size: var(--FormSize-fontSize-lg) !important;
   padding: var(--FormSize-padding-lg) !important;
-  border-radius: var(--FormSize-borderRadius-lg) !important;
   height: var(--FormSize-height-lg) !important;
 }
 
@@ -42,7 +36,6 @@
 .Select--sm {
   font-size: var(--FormSize-fontSize-sm) !important;
   padding: var(--FormSize-padding-sm) !important;
-  border-radius: var(--FormSize-borderRadius-sm) !important;
   height: var(--FormSize-height-sm) !important;
 }
 
